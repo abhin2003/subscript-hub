@@ -23,7 +23,9 @@
     "noFallthroughCasesInSwitch": true,
 
     /* Path Aliases and Client Types */
+    /* Path Aliases & Type Roots */
     "baseUrl": ".",
+    "typeRoots": ["./node_modules/@types"],
     "paths": {
       "@/*": ["./src/*"]
     },
